@@ -29,6 +29,7 @@ h4 {
     width: 1346px;
     margin: 0 auto;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .header__inner h1 {
@@ -43,20 +44,47 @@ h4 {
     margin-bottom: 10px;
 }
 
+.section__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.try {
+    padding-right: 10px;
+}
+
+
+.title {
+    display: block;
+    cursor: pointer;
+}
+
+.btn {
+    appearance: none;
+}
+
+.btn:checked + .mem {
+    display: block;
+}
+
 .section h3 {
     padding-bottom: 10px;
     font-size: 2.5rem;
 }
 
 .section span {
-    display: flex;
-    justify-content: center;
+    display: none
+}
+
+.mem {
+    text-align: center;
+    cursor: pointer;
 }
 
 .section img {
     padding-bottom: 20px;
 }
 
-.picture-size {
+.mema {
     width: 500px;
 }
